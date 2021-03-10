@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>0</y>
+      <w>198</w>
+      <h>297</h>
+    </coordinates>
+    <panel_attributes>CREATURE //abstract class
+--
+-name: string
+-strength: double
+-hitDamage: double
+-health: double
+
+--
+Creature() //default constructor.
+virtual ~Creature()
+Creature(string, string, double)
+setName(string): void
+setStrength(double): void
+setHitDamage(double): void
+setHealth(double): void
+getName(): string
+getStrength(): double
+getHitDamage(): double
+getHealth(): double
+virtual display(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>378</y>
+      <w>351</w>
+      <h>261</h>
+    </coordinates>
+    <panel_attributes>WIZARD
+--
+-wand: bool
+-magicalDamage: double
+-armour: double
+--
+Wizard() //default constructor
+Wizard(string, double, double, double, bool, double, double)
+setWand(bool): void //UNIQUE
+setMagicalDamage(double): void
+setArmour(double): void
+getMagicalDamage(): double
+getWand(): bool
+getArmour(): double
+display(): void
+displayArmourShield(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1044</x>
+      <y>378</y>
+      <w>324</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>DEMON
+--
+-speed: double
+-armour: double
+--
+Demon() //default constructor
+Demon(string, double, double, double, double, double)
+setSpeed(double): void
+setArmour(double): void
+getSpeed(): double
+getArmour(): double
+display(): void
+displayArmourShield(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>153</x>
+      <y>288</y>
+      <w>504</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>540.0;10.0;540.0;50.0;10.0;50.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>522</x>
+      <y>288</y>
+      <w>135</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;130.0;50.0;10.0;50.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>288</y>
+      <w>270</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;280.0;50.0;280.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>288</y>
+      <w>576</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;620.0;50.0;620.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>378</x>
+      <y>378</y>
+      <w>360</w>
+      <h>261</h>
+    </coordinates>
+    <panel_attributes>DWARF
+--
+-invisibility: double
+-armour: double
+--
+Dwarf() //default constructor
+Dwarf(string, double, double, double, double, double)
+setInvisibility(double): void
+serArmour(double): void
+getInvisibility(): double
+getArmour(): double
+display(): void
+displayArmourShield(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>756</x>
+      <y>378</y>
+      <w>252</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>ELF
+--
+-Agility: double
+--
+Elf() //default constructor
+Elf(string, double, double, double, double)
+setAgility(double): void
+getAgility(): double
+display(): void
+displayArmourShield(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

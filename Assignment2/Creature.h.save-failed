@@ -1,0 +1,36 @@
+#ifndef CREATURE_H
+#define CREATURE_H
+#include <iostream>
+
+using namespace std;
+
+class Creature {
+
+private:
+    string name;
+    double strength;
+    double hitPoints;
+    double health;
+
+public:
+    Creature(); // Default constructor initialization
+    virtual ~Creature(); // virtual destructor
+    Creature(string, double, double, double); // non-default constructor.
+    ///setters
+    void setName(string);
+    void setStrength(double);
+    void setHitPoints(double);
+    void setHealth(double);
+    ///getters
+    string getName();
+    double getStrength();
+    double getHealth();
+    double getHitPoints();
+    virtual void display();
+
+};
+
+
+#endif // CREATURE_H_INCLUDED
+
+

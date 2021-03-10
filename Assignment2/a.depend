@@ -1,0 +1,130 @@
+# depslib dependency file v1.0
+1572609930 source:c:\users\tasfi\onedrive\desktop\a\creature.cpp
+	<iostream>
+	"Creature.h"
+
+1572611602 source:c:\users\tasfi\onedrive\desktop\a\main.cpp
+	<iostream>
+	<ctime>
+	"Creature.h"
+	"Wizard.h"
+	"Elf.h"
+	"Dwarf.h"
+	"Demon.h"
+
+1572609930 c:\users\tasfi\onedrive\desktop\a\creature.h
+	<iostream>
+	<ctime>
+
+1572609930 source:c:\users\tasfi\onedrive\desktop\a\demon.cpp
+	<iostream>
+	"Demon.h"
+
+1572609930 source:c:\users\tasfi\onedrive\desktop\a\dwarf.cpp
+	<iostream>
+	"Dwarf.h"
+
+1572609930 source:c:\users\tasfi\onedrive\desktop\a\elf.cpp
+	"Elf.h"
+
+1572609930 c:\users\tasfi\onedrive\desktop\a\demon.h
+	"Creature.h"
+
+1572609930 c:\users\tasfi\onedrive\desktop\a\dwarf.h
+	"Creature.h"
+
+1572609930 c:\users\tasfi\onedrive\desktop\a\elf.h
+	"Creature.h"
+
+1572609930 source:c:\users\tasfi\onedrive\desktop\a\wizard.cpp
+	<iostream>
+	"Wizard.h"
+
+1572609930 c:\users\tasfi\onedrive\desktop\a\wizard.h
+	<iostream>
+	<ctime>
+	"Creature.h"
+
+1572609930 source:c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\creature.cpp
+	<iostream>
+	"Creature.h"
+
+1572609930 c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\creature.h
+	<iostream>
+	<ctime>
+
+1572609930 source:c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\demon.cpp
+	<iostream>
+	"Demon.h"
+
+1572609930 c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\demon.h
+	"Creature.h"
+
+1572609930 source:c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\dwarf.cpp
+	<iostream>
+	"Dwarf.h"
+
+1572609930 c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\dwarf.h
+	"Creature.h"
+
+1572609930 source:c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\elf.cpp
+	"Elf.h"
+
+1572609930 c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\elf.h
+	"Creature.h"
+
+1572609930 source:c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\wizard.cpp
+	<iostream>
+	"Wizard.h"
+
+1572609930 c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\wizard.h
+	<iostream>
+	<ctime>
+	"Creature.h"
+
+1572614921 source:c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\main.cpp
+	<iostream>
+	<ctime>
+	"Creature.h"
+	"Wizard.h"
+	"Elf.h"
+	"Dwarf.h"
+	"Demon.h"
+
+1572609930 source:d:\uow\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\creature.cpp
+	<iostream>
+	"Creature.h"
+
+1572609930 d:\uow\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\creature.h
+	<iostream>
+	<ctime>
+
+1572609930 source:d:\uow\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\demon.cpp
+	<iostream>
+	"Demon.h"
+
+1572609930 d:\uow\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\demon.h
+	"Creature.h"
+
+1572609930 source:d:\uow\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\dwarf.cpp
+	<iostream>
+	"Dwarf.h"
+
+1572609930 d:\uow\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\dwarf.h
+	"Creature.h"
+
+1572609930 source:d:\uow\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\elf.cpp
+	"Elf.h"
+
+1572609930 d:\uow\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\elf.h
+	"Creature.h"
+
+1572609930 source:d:\uow\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\wizard.cpp
+	<iostream>
+	"Wizard.h"
+
+1572609930 d:\uow\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\wizard.h
+	<iostream>
+	<ctime>
+	"Creature.h"
+

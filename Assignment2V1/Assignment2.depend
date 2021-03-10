@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1572606477 source:c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+
+1572443395 source:d:\uow\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+
+1572596407 c:\users\tasfi\onedrive - university of wollongong\uow\uow\semester 3\csci251_advance_programming\assignment\assignment2\assignment2\creature.h
+	<iostream>
+
